@@ -1,0 +1,79 @@
+html{
+  background: url("Capture.jpg") no-repeat center center fixed;
+  background-size:cover;
+  height: 100%;
+  width: 100%;
+  opacity: 50%;
+}
+
+#main{
+  width:1275px;
+  height: 600px;
+}
+
+#mess{
+  width: 400px;
+  height:200px;
+  color: white;
+  text-align: center;
+  margin-top: 35px;
+  margin-left: 50px;
+  position: fixed;
+  font-size: 60px;
+  background-color:inherit;
+}  
+#message{
+	width: 400px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 35px;
+  margin-left: 900px;
+  position: fixed;
+  font-size: 40px;
+  background-color: inherit;
+
+}
+#ttable{
+  width:500px;
+  height: 500px;
+  margin-top: 10px;
+  margin-left: 450px;
+  position: absolute;
+}
+
+#reset{
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	margin-left: 550px;
+  margin-top: 450px;
+  font-size: 30px;
+  color: purple;
+}
+
+.square {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: red;
+  border: none;
+  border-radius: 60px;
+  box-shadow: 0 9px #999;
+}
+
+.square:hover {background-color: blue}
+
+.square:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
